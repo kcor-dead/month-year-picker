@@ -363,9 +363,7 @@ class _Button extends StatelessWidget {
         backgroundColor: buttonBackground,
         primary: buttonText,
         onSurface: buttonText,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(100.0),
-        ),
+        shape: CircleBorder(),
         textStyle: TextStyle(color: buttonText),
       ),
       child: Text(label),
